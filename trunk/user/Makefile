@@ -97,7 +97,7 @@ endif
 dir_y =
 dir_n =
 dir_  =
-
+dir_$(CONFIG_FIRMWARE_INCLUDE_VERYSYNC)            += verysync
 dir_y						+= busybox
 dir_y						+= iptables
 dir_y						+= coremark
